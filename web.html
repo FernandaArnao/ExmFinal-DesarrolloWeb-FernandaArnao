@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MKSK STORE | Skincare and Makeup</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
+
+    <!-- ICONO -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- LightBox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.12.0/css/lightbox.min.css">
+
+</head>
+
+
+<body>
+
+    <!-- barra superior -->
+    <div class="topbar">
+        <i class="fa-solid fa-bullhorn"></i>
+        HAZ TUS PAGOS CON YAPE Y OBTÉN 20% DE DSCT EN TODA LA TIENDA
+    </div>
+
+
+    <nav>
+
+        <h1>MKSK STORE</h1>
+
+        <ul>
+            <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="#Promociones">Promociones</a></li>
+            <li><a href="#Productos">Productos</a></li>
+            <li><a href="#Nosotros">Nosotros</a></li>
+            <li><a href="#Contactanos">Contactanos</a></li>
+
+
+
+        </ul>
+
+
+
+    </nav>
+
+
+    <!-- Añadiendo BOOTSTRAP al proyecto - Carrusel -->
+    <div id="Inicio" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#Inicio" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#Inicio" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#Inicio" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <!-- Imagen principal -->
+            <div class="carousel-item active">
+                <img src="img/beauty-salon-makeup-tools-8yskjspsk2kqr3p4.jpg" class="d-block w-100" alt="Beauty">
+            </div>
+
+            <!-- Imagen 2 -->
+            <div class="carousel-item">
+                <img src="img/beauty.jpg" class="d-block w-100" alt="Beauty 2">
+            </div>
+
+            <!-- Imagen 3 -->
+            <div class="carousel-item">
+                <img src="img/beauty2.webp" class="d-block w-100" alt="Beauty 3">
+            </div>
+
+        </div>
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+            <h1>El cuidado de la piel nunca fue tan accesible</h1>
+            <p>Skincare, maquillaje y accesorios al mejor precio.</p>
+            <a href="#Productos" class="btn-sec">Comprar ahora</a>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#Inicio" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#Inicio" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+
+
+
+
+    <main>
+
+
+        <!-- PROMOCIONES -->
+
+        <section id="Promociones">
+            <h2>Promociones</h2>
+            <div class="promocion reveal">
+                <div class="promociones">
+                    <img src="img/onesize.jfif" alt="">
+                    <h3>ONE SIZE</h3>
+                    <p>On 'Til Dawn Mattifying Waterproof Setting Spray</p>
+
+                    <!-- BADGE -->
+                    <s>S/. 130  <span class="badge text-bg-dark">-10%</span></s>
+                    <p>S/. 117</p>
+
+                </div>
+
+                <div class="promociones">
+                    <img src="img/rarebeauty.png" alt="">
+                    <h3>RARE BEAUTY</h3>
+                    <p>Liquid Touch Weightless Foundation</p>
+                    
+                    <!-- BADGE -->
+                    <s>S/. 134 <span class="badge text-bg-dark">-20%</span></s>
+                    <p>S/. 107</p>
+
+                </div>
+
+                <div class="promociones">
+                    <img src="img/lauramercier.jpg" alt="">
+                    <h3>LAURA MERCIER</h3>
+                    <p>Translucent Loose Setting Powder</p>
+
+                    <!-- BADGE -->
+                    <s>S/. 128 <span class="badge text-bg-dark">-15%</span></s>
+                    <p>S/. 109</p>
+                </div>
+
+                <div class="promociones">
+                    <img src="img/shiseido.jfif" alt="">
+                    <h3>SHISEIDO</h3>
+                    <p>Rizador de Pestañas</p>
+
+                    <!-- BADGE -->
+                    <s>S/. 89 <span class="badge text-bg-dark">-20%</span></s>
+                    <p>S/. 71</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Productos">
+            <h2>Productos</h2>
+            <div class="producto reveal">
+
+                <div class="productos">
+
+                    <!-- JQuery - LightBox -->
+                    <a href="img/RHODE.png" data-lightbox="productos" data-title="RHODE - Pocket Blush">
+                        <img src="img/RHODE.png" alt="RHODE">
+                    </a>
+                    <h3>RHODE</h3>
+                    <p>Pocket Blush</p>
+                    <p>S/. 109</p>
+                </div>
+
+                <div class="productos">
+                    <a href="img/SUMMER_FRIDAYS.png" data-lightbox="productos"
+                        data-title="Summer Fridays - Lip Butter Balm">
+                        <img src="img/SUMMER_FRIDAYS.png" alt="Summer Fridays">
+                    </a>
+                    <h3>SUMMER FRIDAYS</h3>
+                    <p>Lip Butter Balm</p>
+                    <p>S/. 99</p>
+                </div>
+
+                <div class="productos">
+                    <a href="img/THE_ORDINARY.png" data-lightbox="productos" data-title="The Ordinary - Glycolic Acid">
+                        <img src="img/THE_ORDINARY.png" alt="The Ordinary">
+                    </a>
+                    <h3>THE ORDINARY</h3>
+                    <p>Glycolic Acid</p>
+                    <p>S/. 78</p>
+                </div>
+
+                <div class="productos">
+                    <a href="img/elfHidratingCamo.png" data-lightbox="productos"
+                        data-title="e.l.f. - Hydrating Camo Concealer">
+                        <img src="img/elfHidratingCamo.png" alt="e.l.f.">
+                    </a>
+                    <h3>ELF</h3>
+                    <p>Hydrating Camo Concealer</p>
+                    <p>S/.45</p>
+                </div>
+
+                <div class="productos">
+                    <a href="img/rarebeautySoft.png" data-lightbox="productos"
+                        data-title="Rare Beauty - Soft Pinch Liquid Blush">
+                        <img src="img/rarebeautySoft.png" alt="Rare Beauty">
+                    </a>
+                    <h3>RARE BEAUTY</h3>
+                    <p>Soft Pinch Liquid Blush</p>
+                    <p>S/. 79</p>
+                </div>
+            </div>
+
+            <!-- BOOTSTRAP - BUTTONS -->
+            <button type="button" class="btn btn-primary btn-lg position-relative">
+                Ver más
+
+                <!-- BOOTSTRAP - BADGE -->
+                <span class="position-absolute badge rounded-pill">
+                    +
+                    <span class="visually-hidden">unread messages</span>
+                </span>
+            </button>
+        </section>
+
+        <section class="video-section">
+            <h2>Aprende más sobre Skincare</h2>
+            <p>Descubre consejos para el cuidado de tu piel.</p>
+
+            <div class="video-wrap">
+                <iframe width="560" height="315" src="videos/skincarevid.mp4" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+        </section>
+
+        <section class="tabla-precios reveal">
+            <h2>Productos más solicitados</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Marca</th>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>RHODE</td>
+                        <td>Pocket Blush</td>
+                        <td>S/.109</td>
+                    </tr>
+                    <tr>
+                        <td>SUMMER FRIDAYS</td>
+                        <td>Lip Butter Balm</td>
+                        <td>S/.99</td>
+                    </tr>
+                    <tr>
+                        <td>THE ORDINARY</td>
+                        <td>Glycolic Acid</td>
+                        <td>S/.78</td>
+                    </tr>
+                    <tr>
+                        <td>RARE BEAUTY</td>
+                        <td>Liquid Blush</td>
+                        <td>S/.79</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+
+
+        <!-- NOSOTROS -->
+
+        <section class="nosotros reveal" id="Nosotros">
+            <img src="img/skincare.webp" alt="skincare">
+            <div>
+                <h2>Belleza consciente, piel real</h2>
+                <p>En MKSK STORE creemos que la belleza comienza con sentirte bien contigo misma.
+                    Ofrecemos productos de maquillaje y skincare pensados para cuidar tu piel y resaltar tu belleza
+                    natural.
+                    Queremos que cada persona disfrute su rutina de cuidado y maquillaje de una forma sencilla y
+                    especial.
+                    Nos esforzamos por brindar productos de buena calidad y seguir las tendencias que más te gustan.
+                    Gracias por confiar en nosotros y permitirnos acompañarte en tu día a día.</p>
+            </div>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+        <section class="contacto reveal" id="Contactanos">
+
+            <h2>Contáctanos</h2>
+
+            <p class="cta-text">
+                ¡Contáctanos y entérate de grandes ofertas!
+            </p>
+
+            <form class="contact-form">
+                <input type="text" placeholder="Nombre completo" required>
+
+                <input type="email" placeholder="Correo electrónico" required>
+
+                <input type="tel" placeholder="Teléfono">
+
+                <select>
+
+                    <option>
+                        Selecciona una categoría
+                    </option>
+
+                    <option>
+                        Skincare
+                    </option>
+
+                    <option>
+                        Maquillaje
+                    </option>
+
+                    <option>
+                        Accesorios
+                    </option>
+
+                </select>
+
+                <textarea rows="5" placeholder="Escribe tu mensaje">
+                </textarea>
+
+                <label class="check">
+                    <input type="checkbox">
+                    Acepto términos y condiciones
+                </label>
+
+                <!-- USO DE TOOLTIPS -->
+                <button class="btn btn-primary" type="submit" data-bs-toggle="tooltip" data-bs-placement="right"
+                    data-bs-custom-class="custom-tooltip"
+                    data-bs-title="Complete los campos requeridos y seleccione Enviar.">Enviar
+                </button>
+
+            </form>
+        </section>
+
+        <!-- MAP / LOCATIONS -->
+        <section class="map-section reveal" id="mapa">
+            <div class="container">
+
+                <div class="section-head reveal">
+                    <div>
+                        <h2>¿Cómo llegar a MKSK STORE?</h2>
+                    </div>
+                </div>
+
+                <div class="map-embed reveal">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249585.53339330608!2d-77.10874853674409!3d-12.195778098415651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105bd5209f4028f%3A0x3107e44c2412421c!2sBreeze%20Beauty!5e0!3m2!1ses!2spe!4v1781740121153!5m2!1ses!2spe"
+                        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Preguntas Frecuentes -->
+        <section class="faq-section reveal" id="faq">
+            <div class="container">
+                <div class="section-questions reveal">
+                    <div>
+                        <h2>Preguntas Frecuentes</h2>
+                    </div>
+                </div>
+
+                <div class="questions-embed">
+
+                    <!-- BOOTSTRAP - Accordion -->
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    ¿Como sé que mi pedido ya llegó al destino?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample" style="">
+                                <div class="accordion-body">Nuestros asesores se pondrán en contacto con usted a través
+                                    de WhatsApp para
+                                    enviarle un número de seguimiento único correspondiente a su pedido.
+                                    Con este número podrá ingresar en la página oficial de Mail Americas, donde
+                                    encontrará la opción de
+                                    rastreo. Al colocarlo en el sistema, podrá visualizar en tiempo real el estado de su
+                                    envío,
+                                    incluyendo las etapas de procesamiento, transporte y entrega. De esta manera, tendrá
+                                    la tranquilidad de
+                                    conocer en todo momento dónde se encuentra su pedido y cuál es la fecha estimada de
+                                    llegada. </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    ¿Como hacer una devolución del producto?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample" style="">
+                                <div class="accordion-body">Para poder atender su caso de manera rápida y efectiva, le
+                                    pedimos que se comunique con nuestras asesoras a través de WhatsApp. Ellas
+                                    estarán disponibles para recibir toda la información relacionada con la situación
+                                    que presenta su producto.
+                                    Es importante que nos envíe fotografías claras y evidencias detalladas de la falla o
+                                    desperfecto que ha identificado. </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    ¿Como pedir un producto que no se encuentre en el catálogo?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample" style="">
+                                <div class="accordion-body">
+                                    Para recibir una cotización personalizada, debe contactarse con nuestras asesoras
+                                    vía WhatsApp. Ellas estarán disponibles para atender su solicitud y guiarlo en el
+                                    proceso.
+                                    Al momento de escribirles, por favor envíe:
+                                    Una fotografía clara del producto que desea adquirir, para que podamos identificarlo
+                                    correctamente.
+                                    En caso de que lo haya visto en internet, puede compartirnos el enlace directo a la
+                                    página o publicación donde aparece.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+    <footer class="reveal">
+        <div class="footer-container">
+
+            <div>
+                <h3>MKSK STORE</h3>
+                <p>
+                    Productos de skincare y maquillaje
+                    para realzar tu belleza natural.
+                </p>
+            </div>
+
+            <div>
+                <h3>Productos</h3>
+                <ul>
+                    <li>Skincare</li>
+                    <li>Maquillaje</li>
+                    <li>Accesorios</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li><i class="fa-brands fa-instagram"></i> Instagram</li>
+                    <li><i class="fa-brands fa-tiktok"></i> TikTok</li>
+                    <li><i class="fa-brands fa-facebook"></i> Facebook</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="footer-copy">
+            © 2026 MKSK STORE - Todos los derechos reservados
+        </p>
+
+        <p class="footer-copy">
+            Fernanda Isabella Arnao Aponte
+        </p>
+    </footer>
+
+
+    <script>
+        // ====== SCROLL REVEAL ======
+        const revealEls = document.querySelectorAll('.reveal');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, i) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => entry.target.classList.add('visible'), i * 60);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+
+        revealEls.forEach(el => observer.observe(el));
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+        const tooltipList = [...tooltipTriggerList].map(el => new bootstrap.Tooltip(el));
+    </script>
+
+    // ====== JQuery - LightBox ======
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.12.0/js/lightbox.min.js"></script>
+
+     // ====== Para el comportamiento del LightBox ======
+    <script>
+        lightbox.option({
+            resizeDuration: 300,
+            wrapAround: true
+        });
+    </script>
+
+
+</body>
+
+</html>
